@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/jing_rl_adBanner"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#eeeeee"
+    android:orientation="vertical">
+    <androidx.viewpager.widget.ViewPager
+        style="@style/main_ad_viewPager"
+        android:id="@+id/jing_vp_advertBanner"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent">
+        <com.example.zxapp_33.view.ViewPagerIndicatorXys
+            android:id="@+id/jing_vpi_advert_indicator"
+            style="@style/main_ad_viewPagerIndicator"/>
+    </LinearLayout>
+</RelativeLayout>

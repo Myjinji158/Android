@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activity_33.zlyUserInfoActivity">
+    <include layout="@layout/main_title_bar"></include>
+    <RelativeLayout
+        style="@style/userInfo_Item"
+        android:id="@+id/zly_rl_head">
+        <TextView
+            style="@style/userInfo_Item_text1"
+            android:text="头    像"/>
+        <ImageView
+            android:id="@+id/zly_iv_head"
+            style="@style/userInfo_Item_icon"/>
+    </RelativeLayout>
+    <View
+        style="@style/Line"></View>
+    <RelativeLayout
+        style="@style/userInfo_Item"
+        android:id="@+id/zly_rl_userName">
+        <TextView
+            style="@style/userInfo_Item_text1"
+            android:text="用户名"/>
+        <TextView
+            android:id="@+id/zly_tv_userName"
+            style="@style/userInfo_Item_text"/>
+    </RelativeLayout>
+    <View
+        style="@style/Line"></View>
+    <RelativeLayout
+        style="@style/userInfo_Item"
+        android:id="@+id/zly_rl_nickName">
+        <TextView
+            style="@style/userInfo_Item_text1"
+            android:text="昵     称"/>
+        <TextView
+            android:id="@+id/zly_tv_nickName"
+            style="@style/userInfo_Item_text"/>
+    </RelativeLayout>
+    <View
+        style="@style/Line"></View>
+    <RelativeLayout
+        style="@style/userInfo_Item"
+        android:id="@+id/zly_rl_sex">
+        <TextView
+            style="@style/userInfo_Item_text1"
+            android:text="性     别"/>
+        <TextView
+            android:id="@+id/zly_tv_sex"
+            style="@style/userInfo_Item_text"/>
+    </RelativeLayout>
+    <View
+        style="@style/Line"></View>
+    <RelativeLayout
+        style="@style/userInfo_Item"
+        android:id="@+id/zly_rl_signature">
+        <TextView
+            style="@style/userInfo_Item_text1"
+            android:text="签     名"/>
+        <TextView
+            android:id="@+id/zly_tv_signature"
+            style="@style/userInfo_Item_text"/>
+    </RelativeLayout>
+    <View
+        style="@style/Line"></View>
+    <RelativeLayout
+        style="@style/userInfo_Item"
+        android:id="@+id/zly_rl_name">
+        <TextView
+            style="@style/userInfo_Item_text1"
+            android:text="姓     名"/>
+        <TextView
+            android:id="@+id/zly_tv_name"
+            style="@style/userInfo_Item_text"/>
+    </RelativeLayout>
+    <View
+        style="@style/Line"></View>
+    <RelativeLayout
+        style="@style/userInfo_Item"
+        android:id="@+id/zly_rl_sno">
+        <TextView
+            style="@style/userInfo_Item_text1"
+            android:text="学     号"/>
+        <TextView
+            android:id="@+id/zly_tv_sno"
+            style="@style/userInfo_Item_text"/>
+    </RelativeLayout>
+    <View
+        style="@style/Line"></View>
+</LinearLayout>

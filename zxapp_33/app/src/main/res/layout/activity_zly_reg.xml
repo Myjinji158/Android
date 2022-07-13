@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_bg"
+    android:orientation="vertical"
+    tools:context=".activity_33.zlyregActivity">
+    <include layout="@layout/main_title_bar"></include>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/default_icon" />
+
+    <EditText
+        android:id="@+id/et_user_name_33"
+        style="@style/reg_login_EditText"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/register_user_name_bg"
+        android:drawableLeft="@drawable/user_name_icon"
+        android:hint="请输入用户名" />
+    <EditText
+        android:id="@+id/et_psw_33"
+        style="@style/reg_login_EditText"
+        android:background="@drawable/register_psw_bg"
+        android:drawableLeft="@drawable/psw_icon"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:id="@+id/et_psw_again_33"
+        style="@style/reg_login_EditText"
+        android:background="@drawable/register_psw_again_bg"
+        android:drawableLeft="@drawable/psw_icon"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:hint="请再次输入密码"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/btn_register_33"
+        style="@style/reg_login_Button"
+        android:text="注册" />
+</LinearLayout>

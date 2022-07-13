@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infos>
+  <exercises id="1">
+      <subject>1、在实习期内驾驶机动车的，应当在车身后部粘贴或者悬挂哪种标志？（）。</subject>
+      <a>注意车距标志</a>
+      <b>统一式样的实习标志</b>
+      <c>注意避让标志</c>
+      <d>注意新手标志</d>
+      <answer>2</answer>
+  </exercises>
+  <exercises id="2">
+      <subject>2、以欺骗、贿赂等不正当手段取得驾驶证被依法撤销驾驶许可的，多长时间不得重新申请驾驶许可？（）。</subject>
+      <a>终身</a>
+      <b>1年内</b>
+      <c>5年内</c>
+      <d>3年内</d>
+      <answer>4</answer>
+  </exercises>
+  <exercises id="3">
+      <subject>3、驾驶拼装机动车上路行驶的驾驶人，除按规定接受罚款外，还要受到哪种处理？（）</subject>
+      <a>处10日以下拘留</a>
+      <b>暂扣驾驶证</b>
+      <c>吊销驾驶证</c>
+      <d>追究刑事责任</d>
+      <answer>3</answer>
+  </exercises>
+  <exercises id="4">
+      <subject>4、驾驶报废机动车上路行驶的驾驶人，除按规定罚款外，还要受到哪种处理？（）</subject>
+      <a>吊销驾驶证</a>
+      <b>撤销驾驶许可</b>
+      <c>收缴驾驶证</c>
+      <d>强制恢复车况</d>
+      <answer>1</answer>
+  </exercises>
+  <exercises id="5">
+      <subject>5下列哪种标志是驾驶机动车上路行驶应当在车上放置的标志？（）</subject>
+      <a>检验合格标志</a>
+      <b>产品合格标志</b>
+      <c>保持车距标志</c>
+      <d>提醒危险标志</d>
+      <answer>1</answer>
+  </exercises>
+
+<!--    开始-->
+
+    <exercises id="6">
+        <subject>6、在这条车道行驶的最高车速是多少？（）</subject>
+        <a>120公里/小时</a>
+        <b>110公里/小时</b>
+        <c>100公里/小时</c>
+        <d>90公里/小时</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="7">
+        <subject>7、准驾车型为C1驾照，除了可以驾驶小型汽车，还可以驾驶下列哪种车型？（）</subject>
+        <a>C2小型自动挡汽车</a>
+        <b>C3低速载货汽车</b>
+        <c>C4三轮汽车</c>
+        <d>以上都可</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="8">
+        <subject>8、机动车登记证书、号牌、行驶证灭失、丢失或者损坏的，机动车所有人应当向哪个部门申请补领、换领？（）</subject>
+        <a>住地交警支队车辆管理所</a>
+        <b>驾驶证核发地车辆管理所</b>
+        <c>登记地车辆管理所</c>
+        <d>当地公安局</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="9">
+        <subject>9、雾天对安全行车的主要影响是什么？（）</subject>
+        <a>发动机易熄火</a>
+        <b>易发生侧滑</b>
+        <c>行驶阻力增大</c>
+        <d>能见度低，视力不清</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="10">
+        <subject>10、道路交通违法行为累积记分周期是多长时间？（）</subject>
+        <a>14个月</a>
+        <b>12个月</b>
+        <c>10个月</c>
+        <d>6个月</d>
+        <answer>2</answer>
+    </exercises>
+    <exercises id="11">
+        <subject>11、有下列哪种违法行为的机动车驾驶人将被一次记6分？（）</subject>
+        <a>驾驶与准驾车型不符的机动车</a>
+        <b>饮酒后驾驶机动车</b>
+        <c>驾驶机动车违反道路交通信号灯</c>
+        <d>未取得校车驾驶证资格驾驶校车</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="12">
+        <subject>12、行车中遇抢救伤员的救护车从本车道逆向驶来时，应怎样做？（）</subject>
+        <a>靠边减速或者停车让行</a>
+        <b>占用其他车道行驶</b>
+        <c>加速变更车道避让</c>
+        <d>在原车道内继续行驶</d>
+        <answer>1</answer>
+    </exercises>
+    <exercises id="13">
+        <subject>13、雾天行车，不能使用什么？（）</subject>
+        <a>喇叭</a>
+        <b>近光灯</b>
+        <c>远光灯</c>
+        <d>危险报警闪光灯</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="14">
+        <subject>14、造成交通事故后逃逸，尚不构成犯罪的一次记几分？（）</subject>
+        <a>12分</a>
+        <b>6分</b>
+        <c>3分</c>
+        <d>2分</d>
+        <answer>1</answer>
+    </exercises>
+    <exercises id="15">
+        <subject>15、驾驶机动车在没有道路中心线的狭窄山路怎样会车？（）</subject>
+        <a>速度慢的先行</a>
+        <b>重车让空车先行</b>
+        <c>靠山体的一方先行</c>
+        <d>不靠山体的一方先行</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="16">
+        <subject>16、禁令标志是用以___车辆、行人交通行为的标志。（）</subject>
+        <a>指引和禁止</a>
+        <b>警告和限制</b>
+        <c>禁止和限制</c>
+        <d>警告和禁止</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="17">
+        <subject>17、驾驶人在实习期内单独驾驶机动车上高速公路行驶，会受到什么处罚？（）</subject>
+        <a>20元以上200元以下罚款</a>
+        <b>记3分</b>
+        <c>记6分</c>
+        <d>吊销驾驶证</d>
+        <answer>1</answer>
+    </exercises>
+    <exercises id="18">
+        <subject>18、道路交通安全违法行为累积记分的周期是多长时间？（）</subject>
+        <a>3个月</a>
+        <b>6个月</b>
+        <c>12个月</c>
+        <d>24个月</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="19">
+        <subject>19、遇后车发出超车信号后，只要具备让超条件应怎样做？（）</subject>
+        <a>迅速减速或紧急制动</a>
+        <b>让出适当空间右侧行驶</b>
+        <c>主动减速并靠右侧行驶</c>
+        <d>靠道路右侧加速行驶</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="20">
+        <subject>20、行车中遇到对向来车占道行驶，应怎样做？（）</subject>
+        <a>紧靠道路中心行驶</a>
+        <b>主动给对方让行</b>
+        <c>用大灯警示对方</c>
+        <d>逼对方靠右行驶</d>
+        <answer>2</answer>
+    </exercises>
+    <exercises id="21">
+        <subject>21、驾驶人行车看到注意儿童标志的时候，应怎样做？（）</subject>
+        <a>加速行驶</a>
+        <b>绕道行驶</b>
+        <c>谨慎选择行车加速</c>
+        <d>保持正常车速行驶</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="22">
+        <subject>22、驾驶的车辆正在被其他车辆超越时，若此时后方跟随行驶的车辆，应怎样做？（）</subject>
+        <a>继续加速行驶</a>
+        <b>稍向右侧行驶，保持横向安全距离</b>
+        <c>靠道路中心行驶</c>
+        <d>加速向右侧让路</d>
+        <answer>2</answer>
+    </exercises>
+    <exercises id="23">
+        <subject>23、机动车驾驶人违法造成重大交通事故构成犯罪的，依法追究什么责任？（）</subject>
+        <a>刑事责任</a>
+        <b>民事责任</b>
+        <c>经济责任</c>
+        <d>直接责任</d>
+        <answer>1</answer>
+    </exercises>
+    <exercises id="24">
+        <subject>24、夜间车辆通过照明良好的路段时，应使用什么灯？（）</subject>
+        <a>雾灯</a>
+        <b>近光灯</b>
+        <c>远光灯</c>
+        <d>危险报警闪光灯</d>
+        <answer>2</answer>
+    </exercises>
+    <exercises id="25">
+        <subject>25、驾驶车辆通过无人看守的铁路道口时，应怎样做？（）</subject>
+        <a>加速通过</a>
+        <b>减速通过</b>
+        <c>均速通过</c>
+        <d>一停、二看、三通过</d>
+        <answer>4</answer>
+    </exercises>
+    <!--    重复-->
+    <exercises id="26">
+        <subject>26、驾驶机动车在道路上违反道路交通安全法的行为，
+            属于什么行为（）？</subject>
+        <a>违章行为</a>
+        <b>过失行为</b>
+        <c>违法行为</c>
+        <d>违规行为</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="27">
+        <subject>27、机动车驾驶人违法驾驶造成重大交通事故构成犯罪
+            的，依法追究什么责任？（）。</subject>
+        <a>直接责任</a>
+        <b>经济责任</b>
+        <c>名事责任</c>
+        <d>刑事责任</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="28">
+        <subject>28、机动车驾驶人造成事故后逃逸构成犯罪的，吊销驾驶证且多长时间不得重新取得驾驶证？（）</subject>
+        <a>终生</a>
+        <b>5年内</b>
+        <c>20年内</c>
+        <d>10年内</d>
+        <answer>1</answer>
+    </exercises>
+    <exercises id="29">
+        <subject>29、驾驶机动车应当随身携带哪种证件？</subject>
+        <a>工作证</a>
+        <b>职业资格证</b>
+        <c>身份证</c>
+        <d>驾驶证</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="30">
+        <subject>30、机动车驾驶人初次申领驾驶证后的实习期是多长时间？（）</subject>
+        <a>6个月</a>
+        <b>16个月</b>
+        <c>18个月</c>
+        <d>12个月</d>
+        <answer>4</answer>
+    </exercises>
+
+    <exercises id="31">
+        <subject>31、在这条车道行驶的最高车速是多少？（）</subject>
+        <a>120公里/小时</a>
+        <b>110公里/小时</b>
+        <c>100公里/小时</c>
+        <d>90公里/小时</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="32">
+        <subject>32、准驾车型为C1驾照，除了可以驾驶小型汽车，还可以驾驶下列哪种车型？（）</subject>
+        <a>C2小型自动挡汽车</a>
+        <b>C3低速载货汽车</b>
+        <c>C4三轮汽车</c>
+        <d>以上都可</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="33">
+        <subject>33、机动车登记证书、号牌、行驶证灭失、丢失或者损坏的，机动车所有人应当向哪个部门申请补领、换领？（）</subject>
+        <a>住地交警支队车辆管理所</a>
+        <b>驾驶证核发地车辆管理所</b>
+        <c>登记地车辆管理所</c>
+        <d>当地公安局</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="34">
+        <subject>34、雾天对安全行车的主要影响是什么？（）</subject>
+        <a>发动机易熄火</a>
+        <b>易发生侧滑</b>
+        <c>行驶阻力增大</c>
+        <d>能见度低，视力不清</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="35">
+        <subject>35、道路交通违法行为累积记分周期是多长时间？（）</subject>
+        <a>14个月</a>
+        <b>12个月</b>
+        <c>10个月</c>
+        <d>6个月</d>
+        <answer>2</answer>
+    </exercises>
+    <exercises id="36">
+        <subject>36、有下列哪种违法行为的机动车驾驶人将被一次记6分？（）</subject>
+        <a>驾驶与准驾车型不符的机动车</a>
+        <b>饮酒后驾驶机动车</b>
+        <c>驾驶机动车违反道路交通信号灯</c>
+        <d>未取得校车驾驶证资格驾驶校车</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="37">
+        <subject>37、行车中遇抢救伤员的救护车从本车道逆向驶来时，应怎样做？（）</subject>
+        <a>靠边减速或者停车让行</a>
+        <b>占用其他车道行驶</b>
+        <c>加速变更车道避让</c>
+        <d>在原车道内继续行驶</d>
+        <answer>1</answer>
+    </exercises>
+    <exercises id="38">
+        <subject>38、雾天行车，不能使用什么？（）</subject>
+        <a>喇叭</a>
+        <b>近光灯</b>
+        <c>远光灯</c>
+        <d>危险报警闪光灯</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="39">
+        <subject>39、造成交通事故后逃逸，尚不构成犯罪的一次记几分？（）</subject>
+        <a>12分</a>
+        <b>6分</b>
+        <c>3分</c>
+        <d>2分</d>
+        <answer>1</answer>
+    </exercises>
+    <exercises id="40">
+        <subject>40、驾驶机动车在没有道路中心线的狭窄山路怎样会车？（）</subject>
+        <a>速度慢的先行</a>
+        <b>重车让空车先行</b>
+        <c>靠山体的一方先行</c>
+        <d>不靠山体的一方先行</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="41">
+        <subject>42、禁令标志是用以___车辆、行人交通行为的标志。（）</subject>
+        <a>指引和禁止</a>
+        <b>警告和限制</b>
+        <c>禁止和限制</c>
+        <d>警告和禁止</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="42">
+        <subject>42、驾驶人在实习期内单独驾驶机动车上高速公路行驶，会受到什么处罚？（）</subject>
+        <a>20元以上200元以下罚款</a>
+        <b>记3分</b>
+        <c>记6分</c>
+        <d>吊销驾驶证</d>
+        <answer>1</answer>
+    </exercises>
+    <exercises id="43">
+        <subject>43、道路交通安全违法行为累积记分的周期是多长时间？（）</subject>
+        <a>3个月</a>
+        <b>6个月</b>
+        <c>12个月</c>
+        <d>24个月</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="44">
+        <subject>44、遇后车发出超车信号后，只要具备让超条件应怎样做？（）</subject>
+        <a>迅速减速或紧急制动</a>
+        <b>让出适当空间右侧行驶</b>
+        <c>主动减速并靠右侧行驶</c>
+        <d>靠道路右侧加速行驶</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="45">
+        <subject>45、行车中遇到对向来车占道行驶，应怎样做？（）</subject>
+        <a>紧靠道路中心行驶</a>
+        <b>主动给对方让行</b>
+        <c>用大灯警示对方</c>
+        <d>逼对方靠右行驶</d>
+        <answer>2</answer>
+    </exercises>
+    <exercises id="46">
+        <subject>46、驾驶人行车看到注意儿童标志的时候，应怎样做？（）</subject>
+        <a>加速行驶</a>
+        <b>绕道行驶</b>
+        <c>谨慎选择行车加速</c>
+        <d>保持正常车速行驶</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="47">
+        <subject>47、驾驶的车辆正在被其他车辆超越时，若此时后方跟随行驶的车辆，应怎样做？（）</subject>
+        <a>继续加速行驶</a>
+        <b>稍向右侧行驶，保持横向安全距离</b>
+        <c>靠道路中心行驶</c>
+        <d>加速向右侧让路</d>
+        <answer>2</answer>
+    </exercises>
+    <exercises id="48">
+        <subject>48、机动车驾驶人违法造成重大交通事故构成犯罪的，依法追究什么责任？（）</subject>
+        <a>刑事责任</a>
+        <b>民事责任</b>
+        <c>经济责任</c>
+        <d>直接责任</d>
+        <answer>1</answer>
+    </exercises>
+    <exercises id="49">
+        <subject>49、夜间车辆通过照明良好的路段时，应使用什么灯？（）</subject>
+        <a>雾灯</a>
+        <b>近光灯</b>
+        <c>远光灯</c>
+        <d>危险报警闪光灯</d>
+        <answer>2</answer>
+    </exercises>
+    <exercises id="50">
+        <subject>50、驾驶车辆通过无人看守的铁路道口时，应怎样做？（）</subject>
+        <a>加速通过</a>
+        <b>减速通过</b>
+        <c>均速通过</c>
+        <d>一停、二看、三通过</d>
+        <answer>4</answer>
+    </exercises>
+
+    <exercises id="51">
+        <subject>51、驾驶机动车在道路上违反道路交通安全法的行为，
+            属于什么行为（）？</subject>
+        <a>违章行为</a>
+        <b>过失行为</b>
+        <c>违法行为</c>
+        <d>违规行为</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="52">
+        <subject>52、机动车驾驶人违法驾驶造成重大交通事故构成犯罪
+            的，依法追究什么责任？（）。</subject>
+        <a>直接责任</a>
+        <b>经济责任</b>
+        <c>名事责任</c>
+        <d>刑事责任</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="53">
+        <subject>53、机动车驾驶人造成事故后逃逸构成犯罪的，吊销驾驶证且多长时间不得重新取得驾驶证？（）</subject>
+        <a>终生</a>
+        <b>5年内</b>
+        <c>20年内</c>
+        <d>10年内</d>
+        <answer>1</answer>
+    </exercises>
+    <exercises id="54">
+        <subject>54、驾驶机动车应当随身携带哪种证件？</subject>
+        <a>工作证</a>
+        <b>职业资格证</b>
+        <c>身份证</c>
+        <d>驾驶证</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="55">
+        <subject>55、机动车驾驶人初次申领驾驶证后的实习期是多长时间？（）</subject>
+        <a>6个月</a>
+        <b>16个月</b>
+        <c>18个月</c>
+        <d>12个月</d>
+        <answer>4</answer>
+    </exercises>
+
+    <exercises id="56">
+        <subject>56、在这条车道行驶的最高车速是多少？（）</subject>
+        <a>120公里/小时</a>
+        <b>110公里/小时</b>
+        <c>100公里/小时</c>
+        <d>90公里/小时</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="57">
+        <subject>57、准驾车型为C1驾照，除了可以驾驶小型汽车，还可以驾驶下列哪种车型？（）</subject>
+        <a>C2小型自动挡汽车</a>
+        <b>C3低速载货汽车</b>
+        <c>C4三轮汽车</c>
+        <d>以上都可</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="58">
+        <subject>58、机动车登记证书、号牌、行驶证灭失、丢失或者损坏的，机动车所有人应当向哪个部门申请补领、换领？（）</subject>
+        <a>住地交警支队车辆管理所</a>
+        <b>驾驶证核发地车辆管理所</b>
+        <c>登记地车辆管理所</c>
+        <d>当地公安局</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="59">
+        <subject>59、雾天对安全行车的主要影响是什么？（）</subject>
+        <a>发动机易熄火</a>
+        <b>易发生侧滑</b>
+        <c>行驶阻力增大</c>
+        <d>能见度低，视力不清</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="60">
+        <subject>60、道路交通违法行为累积记分周期是多长时间？（）</subject>
+        <a>14个月</a>
+        <b>12个月</b>
+        <c>10个月</c>
+        <d>6个月</d>
+        <answer>2</answer>
+    </exercises>
+    <exercises id="61">
+        <subject>61、有下列哪种违法行为的机动车驾驶人将被一次记6分？（）</subject>
+        <a>驾驶与准驾车型不符的机动车</a>
+        <b>饮酒后驾驶机动车</b>
+        <c>驾驶机动车违反道路交通信号灯</c>
+        <d>未取得校车驾驶证资格驾驶校车</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="62">
+        <subject>62、行车中遇抢救伤员的救护车从本车道逆向驶来时，应怎样做？（）</subject>
+        <a>靠边减速或者停车让行</a>
+        <b>占用其他车道行驶</b>
+        <c>加速变更车道避让</c>
+        <d>在原车道内继续行驶</d>
+        <answer>1</answer>
+    </exercises>
+    <exercises id="63">
+        <subject>63、雾天行车，不能使用什么？（）</subject>
+        <a>喇叭</a>
+        <b>近光灯</b>
+        <c>远光灯</c>
+        <d>危险报警闪光灯</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="64">
+        <subject>64、造成交通事故后逃逸，尚不构成犯罪的一次记几分？（）</subject>
+        <a>12分</a>
+        <b>6分</b>
+        <c>3分</c>
+        <d>2分</d>
+        <answer>1</answer>
+    </exercises>
+    <exercises id="65">
+        <subject>65、驾驶机动车在没有道路中心线的狭窄山路怎样会车？（）</subject>
+        <a>速度慢的先行</a>
+        <b>重车让空车先行</b>
+        <c>靠山体的一方先行</c>
+        <d>不靠山体的一方先行</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="66">
+        <subject>66、禁令标志是用以___车辆、行人交通行为的标志。（）</subject>
+        <a>指引和禁止</a>
+        <b>警告和限制</b>
+        <c>禁止和限制</c>
+        <d>警告和禁止</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="67">
+        <subject>67、驾驶人在实习期内单独驾驶机动车上高速公路行驶，会受到什么处罚？（）</subject>
+        <a>20元以上200元以下罚款</a>
+        <b>记3分</b>
+        <c>记6分</c>
+        <d>吊销驾驶证</d>
+        <answer>1</answer>
+    </exercises>
+    <exercises id="68">
+        <subject>68、道路交通安全违法行为累积记分的周期是多长时间？（）</subject>
+        <a>3个月</a>
+        <b>6个月</b>
+        <c>12个月</c>
+        <d>24个月</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="69">
+        <subject>69、遇后车发出超车信号后，只要具备让超条件应怎样做？（）</subject>
+        <a>迅速减速或紧急制动</a>
+        <b>让出适当空间右侧行驶</b>
+        <c>主动减速并靠右侧行驶</c>
+        <d>靠道路右侧加速行驶</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="70">
+        <subject>70、行车中遇到对向来车占道行驶，应怎样做？（）</subject>
+        <a>紧靠道路中心行驶</a>
+        <b>主动给对方让行</b>
+        <c>用大灯警示对方</c>
+        <d>逼对方靠右行驶</d>
+        <answer>2</answer>
+    </exercises>
+    <exercises id="71">
+        <subject>71、驾驶人行车看到注意儿童标志的时候，应怎样做？（）</subject>
+        <a>加速行驶</a>
+        <b>绕道行驶</b>
+        <c>谨慎选择行车加速</c>
+        <d>保持正常车速行驶</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="72">
+        <subject>72、驾驶的车辆正在被其他车辆超越时，若此时后方跟随行驶的车辆，应怎样做？（）</subject>
+        <a>继续加速行驶</a>
+        <b>稍向右侧行驶，保持横向安全距离</b>
+        <c>靠道路中心行驶</c>
+        <d>加速向右侧让路</d>
+        <answer>2</answer>
+    </exercises>
+    <exercises id="73">
+        <subject>73、机动车驾驶人违法造成重大交通事故构成犯罪的，依法追究什么责任？（）</subject>
+        <a>刑事责任</a>
+        <b>民事责任</b>
+        <c>经济责任</c>
+        <d>直接责任</d>
+        <answer>1</answer>
+    </exercises>
+    <exercises id="74">
+        <subject>74、夜间车辆通过照明良好的路段时，应使用什么灯？（）</subject>
+        <a>雾灯</a>
+        <b>近光灯</b>
+        <c>远光灯</c>
+        <d>危险报警闪光灯</d>
+        <answer>2</answer>
+    </exercises>
+    <exercises id="75">
+        <subject>75、驾驶车辆通过无人看守的铁路道口时，应怎样做？（）</subject>
+        <a>加速通过</a>
+        <b>减速通过</b>
+        <c>均速通过</c>
+        <d>一停、二看、三通过</d>
+        <answer>4</answer>
+    </exercises>
+    <!--    重复-->
+    <exercises id="76">
+        <subject>76、驾驶机动车在道路上违反道路交通安全法的行为，
+            属于什么行为（）？</subject>
+        <a>违章行为</a>
+        <b>过失行为</b>
+        <c>违法行为</c>
+        <d>违规行为</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="77">
+        <subject>77、机动车驾驶人违法驾驶造成重大交通事故构成犯罪
+            的，依法追究什么责任？（）。</subject>
+        <a>直接责任</a>
+        <b>经济责任</b>
+        <c>名事责任</c>
+        <d>刑事责任</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="78">
+        <subject>78、机动车驾驶人造成事故后逃逸构成犯罪的，吊销驾驶证且多长时间不得重新取得驾驶证？（）</subject>
+        <a>终生</a>
+        <b>5年内</b>
+        <c>20年内</c>
+        <d>10年内</d>
+        <answer>1</answer>
+    </exercises>
+    <exercises id="79">
+        <subject>79、驾驶机动车应当随身携带哪种证件？</subject>
+        <a>工作证</a>
+        <b>职业资格证</b>
+        <c>身份证</c>
+        <d>驾驶证</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="80">
+        <subject>80、机动车驾驶人初次申领驾驶证后的实习期是多长时间？（）</subject>
+        <a>6个月</a>
+        <b>16个月</b>
+        <c>18个月</c>
+        <d>12个月</d>
+        <answer>4</answer>
+    </exercises>
+
+    <exercises id="81">
+        <subject>81、在这条车道行驶的最高车速是多少？（）</subject>
+        <a>120公里/小时</a>
+        <b>110公里/小时</b>
+        <c>100公里/小时</c>
+        <d>90公里/小时</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="82">
+        <subject>82、准驾车型为C1驾照，除了可以驾驶小型汽车，还可以驾驶下列哪种车型？（）</subject>
+        <a>C2小型自动挡汽车</a>
+        <b>C3低速载货汽车</b>
+        <c>C4三轮汽车</c>
+        <d>以上都可</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="83">
+        <subject>83、机动车登记证书、号牌、行驶证灭失、丢失或者损坏的，机动车所有人应当向哪个部门申请补领、换领？（）</subject>
+        <a>住地交警支队车辆管理所</a>
+        <b>驾驶证核发地车辆管理所</b>
+        <c>登记地车辆管理所</c>
+        <d>当地公安局</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="84">
+        <subject>84、雾天对安全行车的主要影响是什么？（）</subject>
+        <a>发动机易熄火</a>
+        <b>易发生侧滑</b>
+        <c>行驶阻力增大</c>
+        <d>能见度低，视力不清</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="85">
+        <subject>85、道路交通违法行为累积记分周期是多长时间？（）</subject>
+        <a>14个月</a>
+        <b>12个月</b>
+        <c>10个月</c>
+        <d>6个月</d>
+        <answer>2</answer>
+    </exercises>
+    <exercises id="86">
+        <subject>86、有下列哪种违法行为的机动车驾驶人将被一次记6分？（）</subject>
+        <a>驾驶与准驾车型不符的机动车</a>
+        <b>饮酒后驾驶机动车</b>
+        <c>驾驶机动车违反道路交通信号灯</c>
+        <d>未取得校车驾驶证资格驾驶校车</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="87">
+        <subject>87、行车中遇抢救伤员的救护车从本车道逆向驶来时，应怎样做？（）</subject>
+        <a>靠边减速或者停车让行</a>
+        <b>占用其他车道行驶</b>
+        <c>加速变更车道避让</c>
+        <d>在原车道内继续行驶</d>
+        <answer>1</answer>
+    </exercises>
+    <exercises id="88">
+        <subject>88、雾天行车，不能使用什么？（）</subject>
+        <a>喇叭</a>
+        <b>近光灯</b>
+        <c>远光灯</c>
+        <d>危险报警闪光灯</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="89">
+        <subject>89、造成交通事故后逃逸，尚不构成犯罪的一次记几分？（）</subject>
+        <a>12分</a>
+        <b>6分</b>
+        <c>3分</c>
+        <d>2分</d>
+        <answer>1</answer>
+    </exercises>
+    <exercises id="90">
+        <subject>90、驾驶机动车在没有道路中心线的狭窄山路怎样会车？（）</subject>
+        <a>速度慢的先行</a>
+        <b>重车让空车先行</b>
+        <c>靠山体的一方先行</c>
+        <d>不靠山体的一方先行</d>
+        <answer>4</answer>
+    </exercises>
+    <exercises id="91">
+        <subject>91、禁令标志是用以___车辆、行人交通行为的标志。（）</subject>
+        <a>指引和禁止</a>
+        <b>警告和限制</b>
+        <c>禁止和限制</c>
+        <d>警告和禁止</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="92">
+        <subject>92、驾驶人在实习期内单独驾驶机动车上高速公路行驶，会受到什么处罚？（）</subject>
+        <a>20元以上200元以下罚款</a>
+        <b>记3分</b>
+        <c>记6分</c>
+        <d>吊销驾驶证</d>
+        <answer>1</answer>
+    </exercises>
+    <exercises id="93">
+        <subject>93、道路交通安全违法行为累积记分的周期是多长时间？（）</subject>
+        <a>3个月</a>
+        <b>6个月</b>
+        <c>12个月</c>
+        <d>24个月</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="94">
+        <subject>94、遇后车发出超车信号后，只要具备让超条件应怎样做？（）</subject>
+        <a>迅速减速或紧急制动</a>
+        <b>让出适当空间右侧行驶</b>
+        <c>主动减速并靠右侧行驶</c>
+        <d>靠道路右侧加速行驶</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="95">
+        <subject>95、行车中遇到对向来车占道行驶，应怎样做？（）</subject>
+        <a>紧靠道路中心行驶</a>
+        <b>主动给对方让行</b>
+        <c>用大灯警示对方</c>
+        <d>逼对方靠右行驶</d>
+        <answer>2</answer>
+    </exercises>
+    <exercises id="96">
+        <subject>96、驾驶人行车看到注意儿童标志的时候，应怎样做？（）</subject>
+        <a>加速行驶</a>
+        <b>绕道行驶</b>
+        <c>谨慎选择行车加速</c>
+        <d>保持正常车速行驶</d>
+        <answer>3</answer>
+    </exercises>
+    <exercises id="97">
+        <subject>97、驾驶的车辆正在被其他车辆超越时，若此时后方跟随行驶的车辆，应怎样做？（）</subject>
+        <a>继续加速行驶</a>
+        <b>稍向右侧行驶，保持横向安全距离</b>
+        <c>靠道路中心行驶</c>
+        <d>加速向右侧让路</d>
+        <answer>2</answer>
+    </exercises>
+    <exercises id="98">
+        <subject>98、机动车驾驶人违法造成重大交通事故构成犯罪的，依法追究什么责任？（）</subject>
+        <a>刑事责任</a>
+        <b>民事责任</b>
+        <c>经济责任</c>
+        <d>直接责任</d>
+        <answer>1</answer>
+    </exercises>
+    <exercises id="99">
+        <subject>49、夜间车辆通过照明良好的路段时，应使用什么灯？（）</subject>
+        <a>雾灯</a>
+        <b>近光灯</b>
+        <c>远光灯</c>
+        <d>危险报警闪光灯</d>
+        <answer>2</answer>
+    </exercises>
+    <exercises id="100">
+        <subject>50、驾驶车辆通过无人看守的铁路道口时，应怎样做？（）</subject>
+        <a>加速通过</a>
+        <b>减速通过</b>
+        <c>均速通过</c>
+        <d>一停、二看、三通过</d>
+        <answer>4</answer>
+    </exercises>
+
+</infos>

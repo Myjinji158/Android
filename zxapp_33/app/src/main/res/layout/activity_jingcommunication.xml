@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".activity_33.jingcommunication">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/default_commutination_us">
+    </TextView>
+
+    <TextView
+        android:id="@+id/xys_textView1"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:text="联系地址:"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/xys_textView2"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="广东省广州市南浦村"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/xys_textView3"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="联系电话:88888888"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/xys_textView4"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="邮政编码：517121"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:background="@drawable/defualt_choose_us"></TextView>
+
+</LinearLayout>

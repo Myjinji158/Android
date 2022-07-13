@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/register_bg"
+    tools:context=".activity_33.jingSecuritySettingActivity">
+    <include layout="@layout/main_title_bar"></include>
+    <TextView
+        style="@style/SecuritySetting_TextView"
+        android:id="@+id/jing_tv_userName"
+        android:text="你的姓名是？"/>
+    <EditText
+        style="@style/reg_login_EditText"
+        android:id="@+id/jing_et_validate_name"
+        android:hint="请输入要验证的姓名"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/find_psw_icon"/>
+    <Button
+        style="@style/reg_login_Button"
+        android:id="@+id/jing_btn_save"
+        android:text="保存"/>
+</LinearLayout>

@@ -1,0 +1,435 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="reg_login_EditText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginLeft">35dp</item>
+        <item name="android:layout_marginRight">35dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorHint">#a3a3a3</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="reg_login_Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginLeft">35dp</item>
+        <item name="android:layout_marginRight">35dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:background">@drawable/reg_login_selector</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="login_TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="userImage">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/default_icon</item>
+        <item name="android:layout_marginTop">25dp</item>
+    </style>
+    <style name="bottom_bar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">#F2F2F2</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="bottom_bar_btn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="bottom_bar_btn_ImageView">
+        <item name="android:layout_width">27dp</item>
+        <item name="android:layout_height">27dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">3dp</item>
+    </style>
+    <style name="bottom_bar_btn_TextView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/lineColor</item>
+    </style>
+    <style name="myInfo_Item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@color/itemColor</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <style name="myInfo_Item_icon">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">25dp</item>
+    </style>
+    <style name="myInfo_Item_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:textColor">@color/itemTextColor</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="myInfo_Item_next">
+        <item name="android:layout_width">15dp</item>
+        <item name="android:layout_height">15dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:src">@drawable/iv_right_arrow</item>
+    </style>
+    <style name="userText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!--我的样式结束-->
+    <!--设置密保和找回密码页面样式-->
+    <style name="SecuritySetting_TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">35dp</item>
+        <item name="android:layout_marginRight">35dp</item>
+        <item name="android:layout_marginLeft">35dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <!--设置密保和找回密码页面样式结束-->
+
+    <!--个人信息样式-->
+    <!--数据项样式-->
+    <style name="userInfo_Item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+    <!--数据项提示文字样式-->
+    <style name="userInfo_Item_text1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@color/userInfoItemTextColor</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!--数据项头像样式-->
+    <style name="userInfo_Item_icon">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:src">@drawable/default_icon</item>
+    </style>
+    <!--数据项文字样式-->
+    <style name="userInfo_Item_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:textColor">@color/itemTextColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!--个人信息样式结束-->
+
+    <!--修改个人信息样式-->
+    <style name="changeUserInfo_EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/EditTextColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="changeUserInfo_ImageView">
+        <item name="android:layout_width">27dp</item>
+        <item name="android:layout_height">27dp</item>
+        <item name="android:layout_marginLeft">-40dp</item>
+        <item name="android:src">@drawable/info_delete</item>
+    </style>
+    <!--修改个人信息样式结束-->
+    <!--标题栏样式-->
+    <style name="bar_save">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <!--标题栏样式结束-->
+    <!--习题列表样式-->
+    <style name="exercises_item_xh">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:background">@drawable/exercises_bg_1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="exercises_item_ll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="exercises_item_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/userInfoItemTextColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="exercises_item_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/lineColor</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="exercises_list">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginBottom">55dp</item>
+        <item name="android:divider">@color/exercisesListColor</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+    <!--习题列表样式结束-->
+    <!--习题详情样式-->
+    <!--试题题目样式-->
+    <style name="exercises_detail_item_subject">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:textColor">@color/userInfoItemTextColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!--试题题目样式结束-->
+    <!--试题选项样式-->
+    <style name="exercises_detail_item_LinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="exercises_detail_item_ImageView">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:src">@drawable/exercises_a</item>
+    </style>
+    <style name="exercises_detail_item_TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:textColor">@color/userInfoItemTextColor</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!--试题选项样式-->
+    <!--习题详情样式结束-->
+    <!--主页广告图片-->
+    <style name="main_ad_viewPager">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:background">@drawable/default_img</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="main_ad_viewPagerIndicator">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">4dp</item>
+    </style>
+    <!--主页广告图片结束-->
+    <!--主页章节列表-->
+    <style name="main_item_ll">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">140dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="main_item_rl">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">115dp</item>
+    </style>
+    <style name="main_item_img">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">115dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+    <style name="main_item_img_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:background">@color/main_item_color</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="main_item_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!--主页章节列表结束-->
+    <!--课程详情-->
+    <style name="video_rl">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/video_list_intro_icon</item>
+    </style>
+    <style name="video_intro">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@color/video_Color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="video_listview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:divider">@color/exercisesListColor</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="video_chapter_intro">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="video_item_ll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingTop">15dp</item>
+    </style>
+    <style name="video_item_img">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:src">@drawable/course_bar_icon</item>
+    </style>
+    <style name="video_item_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/video_item_textColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!--课程详情结束-->
+    <!--视频播放记录-->
+    <style name="History_item_rl">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="history_item_img_icon">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:src">@drawable/video_play_icon1</item>
+    </style>
+    <style name="history_item_img_play">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="history_item_ll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="history_item_tv_chapter_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/video_item_textColor</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="history_item_tv_video_title">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/itemTextColor</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <!--视频播放记录结束-->
+</resources>

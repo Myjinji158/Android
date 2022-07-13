@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:padding="10dp">
+    <RelativeLayout
+        style="@style/History_item_rl">
+        <ImageView
+            android:id="@+id/jing_iv_video_icon"
+            style="@style/history_item_img_icon"/>
+        <ImageView
+            style="@style/history_item_img_play"/>
+    </RelativeLayout>
+    <LinearLayout
+        style="@style/history_item_ll">
+        <TextView
+            android:id="@+id/jing_tv_adapter_title"
+            style="@style/history_item_tv_chapter_title"
+            android:text="第1章 Android基础入门"/>
+        <TextView
+            android:id="@+id/jing_tv_video_title"
+            style="@style/history_item_tv_video_title"
+            android:text="Android系统简介"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,33 @@
+[
+ {
+  "chapterId": 1,
+  "videoId": "1",
+  "title": "新手学车技巧",
+  "secondTitle": "Android系统简介",
+  "videoPath": "video11.mp4"
+ },
+ {
+  "chapterId": 2,
+  "videoId": "1",
+  "title": "驾考新规则",
+  "secondTitle": "帧布局",
+  "videoPath": "http://59.110.169.80/201.mp4"
+ },
+
+ {
+  "chapterId": 3,
+  "videoId": "1",
+  "title": "新手曲线行驶详细操作步骤",
+  "secondTitle": "Activity的启动模式",
+  "videoPath": "video11.mp4"
+ },
+
+ {
+  "chapterId": 4,
+  "videoId": "1",
+  "title": "第4章 技巧讲解学车考试",
+  "secondTitle": "文件存储",
+  "videoPath": "video11.mp4"
+ }
+
+]

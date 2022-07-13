@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/register_bg"
+    tools:context=".activity_33.jingEditPswActivity">
+<include layout="@layout/main_title_bar"></include>
+    <EditText
+        android:layout_marginTop="35dp"
+        style="@style/reg_login_EditText"
+        android:id="@+id/jing_et_old_psw"
+        android:background="@drawable/register_user_name_bg"
+        android:drawableLeft="@drawable/psw_icon"
+        android:hint="请输入旧密码"
+        android:inputType="textPassword"/>
+    <EditText
+        style="@style/reg_login_EditText"
+        android:id="@+id/jing_et_new_psw"
+        android:background="@drawable/register_psw_bg"
+        android:drawableLeft="@drawable/psw_icon"
+        android:hint="请输入新密码"
+        android:inputType="textPassword"/>
+    <EditText
+        style="@style/reg_login_EditText"
+        android:id="@+id/jing_et_new_psw_again"
+        android:background="@drawable/register_psw_again_bg"
+        android:drawableLeft="@drawable/psw_icon"
+        android:hint="请再一次输入新密码"
+        android:inputType="textPassword"/>
+    <Button
+        style="@style/reg_login_Button"
+        android:id="@+id/jing_btn_save"
+        android:text="保存"/>
+</LinearLayout>

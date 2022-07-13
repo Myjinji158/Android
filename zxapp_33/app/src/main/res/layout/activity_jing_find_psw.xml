@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/register_bg"
+    tools:context=".activity_33.jingFindPswActivity">
+    <include layout="@layout/main_title_bar"></include>
+    <TextView
+        style="@style/SecuritySetting_TextView"
+        android:id="@+id/jing_tv_user_name"
+        android:text="你的用户名是？"/>
+    <EditText
+        style="@style/reg_login_EditText"
+        android:id="@+id/jing_et_user_name"
+        android:hint="请输入用户名"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/find_psw_icon"/>
+    <TextView
+        style="@style/SecuritySetting_TextView"
+        android:id="@+id/jing_tv_name"
+        android:layout_marginTop="10dp"
+        android:text="你的姓名是？"/>
+    <EditText
+        style="@style/reg_login_EditText"
+        android:id="@+id/jing_et_validate_name"
+        android:hint="请输入要验证的姓名"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/find_psw_icon"/>
+    <TextView
+        style="@style/SecuritySetting_TextView"
+        android:id="@+id/jing_tv_reset_psw"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:text=""/>
+    <Button
+        style="@style/reg_login_Button"
+        android:id="@+id/jing_btn_validate"
+        android:text="验证"/>
+</LinearLayout>

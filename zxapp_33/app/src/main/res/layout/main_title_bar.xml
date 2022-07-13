@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/rl_bar_33"
+    android:background="@android:color/transparent">
+
+    <TextView
+        android:id="@+id/tv_brack_33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/go_back_selector"
+        android:width="50dp"
+        android:height="50dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_title_33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"
+        android:text="标题" />
+    <TextView
+        style="@style/bar_save"
+        android:id="@+id/jing_tv_save"
+        android:text="保存" />
+</RelativeLayout>

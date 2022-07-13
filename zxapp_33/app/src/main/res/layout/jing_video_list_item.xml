@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/video_item_ll">
+    <ImageView
+        style="@style/video_item_img"
+        android:id="@+id/jing_iv_left_icon"/>
+
+</LinearLayout>

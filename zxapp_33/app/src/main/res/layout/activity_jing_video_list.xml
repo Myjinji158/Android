@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activity_33.jingVideoList">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/default_video_list_icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout style="@style/video_rl">
+
+            <TextView
+                android:id="@+id/jing_tv_intro"
+                style="@style/video_intro"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="2dp"
+                android:text="简介" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="48dp"
+            android:background="@color/lineColor"></View>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/jing_lv_video_list"
+            style="@style/video_listview"></ListView>
+
+        <ScrollView
+            android:id="@+id/jing_sv_chapter_intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/jing_tv_chapter_intro"
+                    style="@style/video_chapter_intro"
+                    android:layout_height="match_parent"
+                    android:text="理论考试，又称科目一理论考试、驾驶员理论考试科目。考试内容包括驾车理论基础和道路安全法律法规及相关知识，再加地方性法规。驾考宝典 [5]  将交规理论知识，采取章节练习、顺序练习、随机练习以及强化练习的方式，进行学习巩固。" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:background="@drawable/default_video_list_icon2"></TextView>
+</LinearLayout>
